@@ -29,3 +29,7 @@ Word and character embeddings are concatenated and fed into a BiLSTM to represen
 In order to analyse long context dependencies of mentions, they used the attention model of GH that gives one context embedding per mention based on informative context words that are related to at least one of the candidate entities.
 Next, the final local score for each mention is determined by the combination of the $\log p(e|m)$, the similarity between the analysed mention and each candidate entity embeddings, and the long-range context attention for this mention.
 Finally, a top layer in the neural network promotes the coherence among disambiguated entities inside the same document.
+
+## Named Entity Recognition filter 
+
+Link: https://github.com/EMBEDDIA/NEL_Filter
