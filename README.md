@@ -32,7 +32,7 @@ Finally, a top layer in the neural network promotes the coherence among disambig
 
 ## Post-processing filter 
 
-For certain publication we have explored as well a post-processing filter. This tool can be found in the following Github repositiory:
+For certain publications we have explored as well a post-processing filter. This tool can be found in the following Github repositiory:
 https://github.com/EMBEDDIA/NEL_Filter
 
 ## How to Cite?
