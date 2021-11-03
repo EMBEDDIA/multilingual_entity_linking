@@ -30,6 +30,38 @@ In order to analyse long context dependencies of mentions, they used the attenti
 Next, the final local score for each mention is determined by the combination of the $\log p(e|m)$, the similarity between the analysed mention and each candidate entity embeddings, and the long-range context attention for this mention.
 Finally, a top layer in the neural network promotes the coherence among disambiguated entities inside the same document.
 
-## Named Entity Recognition filter 
+## Post-processing filter 
 
-Link: https://github.com/EMBEDDIA/NEL_Filter
+For certain publication we have explored as well a post-processing filter. This tool can be found in the following Github repositiory:
+https://github.com/EMBEDDIA/NEL_Filter
+
+## How to Cite?
+
+Please cite this work with the following publication:
+```
+@InProceedings{10.1007/978-3-030-64452-9_19,
+  author="Linhares Pontes, Elvys
+  and Cabrera-Diego, Luis Adri{\'a}n
+  and Moreno, Jose G.
+  and Boros, Emanuela
+  and Hamdi, Ahmed
+  and Sid{\`e}re, Nicolas
+  and Coustaty, Micka{\"e}l
+  and Doucet, Antoine",
+  editor="Ishita, Emi
+  and Pang, Natalie Lee San
+  and Zhou, Lihong",
+  title="Entity Linking for Historical Documents: Challenges and Solutions",
+  booktitle="Digital Libraries at Times of Massive Societal Transition",
+  year="2020",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="215--231",
+  doi="10.1007/978-3-030-64452-9_19"
+  isbn="978-3-030-64452-9"
+}
+``` 
+
+# Parent project
+
+This work is is result of the European Union H2020 Project [Embeddia](http://embeddia.eu/). Embeddia is a project that creates NLP tools that focuses on European under-represented languages and that has for objective to improve the accessibility of these tools to the general public and to media enterprises.
